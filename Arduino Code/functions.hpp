@@ -34,12 +34,10 @@ void postCodeB(int code, bool DecimalPoint_First = false, bool DecimalPoint_Seco
 }
 #endif
 
-#if defined(DEBUG_LEDS_MINIMAL)
 bool ledState = true;
 inline void flashKeepAlive () {
 	digitalWrite(13, ledState);
 	ledState = !ledState;
 }
-#endif
 
 #endif
