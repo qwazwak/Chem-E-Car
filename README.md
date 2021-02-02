@@ -1,4 +1,4 @@
-# Tennessee Tech ChemECarTeam [![Build Status](https://travis-ci.com/rhoffman42/ttu-chemecar.svg?branch=master)](https://travis-ci.com/rhoffman42/ttu-chemecar)
+# Tennessee Tech ChemECarTeam [![Build Status](https://travis-ci.com/qwazwak/Chem-E-Car.svg?branch=master)](https://travis-ci.com/qwazwak/Chem-E-Car)
 Find the rules [here at AIChE's website](https://www.aiche.org/students/chem-e-car-competition/chem-e-car-competition-rules#panels-pane-entity-field-nodefield-global-public-files). Scroll down and find the Competition Official Rules document.
 
 This is the code for the TTU ChemECar team's microcontroller.
