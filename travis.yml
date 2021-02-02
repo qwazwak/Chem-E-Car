@@ -19,7 +19,7 @@ addons:
 env:
   global:
 #    - ARDUINO_IDE_VERSION="1.8.10"
-     - PRETTYNAME="Adafruit FT6206 Arduino Library"
+     - PRETTYNAME="TTU ChemECar Team Main Program"
 # Optional, will default to "$TRAVIS_BUILD_DIR/Doxyfile"
 #    - DOXYFILE: $TRAVIS_BUILD_DIR/Doxyfile
 
@@ -28,7 +28,7 @@ before_install:
    - curl -SLs https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/run-clang-format.py > run-clang-format.py
 
 install:
-   - arduino --install-library "Adafruit ILI9341","Adafruit GFX Library"
+   - arduino --install-library "Adafruit SSD1327","Adafruit GFX Library"
 
 script:
    - python run-clang-format.py -r .
